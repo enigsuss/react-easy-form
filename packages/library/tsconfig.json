@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "esnext",
-    "declaration": true,
-    "outDir": "dist",
-    "jsx": "react",
-    "esModuleInterop": true,
+    "target": "es5", // JavaScript 타겟 버전
+    "module": "esnext", // 모듈 시스템 설정
+    "declaration": true, // 타입 선언 파일 생성
+    "declarationDir": "dist", // 선언 파일이 저장될 디렉토리
+    "emitDeclarationOnly": true, // JavaScript 파일을 생성하지 않고 타입 선언 파일만 생성
+    "outDir": "dist", // 출력 파일이 저장될 디렉토리
+    "jsx": "react", // JSX 처리를 위한 설정
+    "esModuleInterop": true, // ES 모듈과 CommonJS 모듈 간 상호 운용성 활성화
+    "moduleResolution": "node", // Node.js 모듈 해석 방식
+    "strict": true // 엄격한 타입 체크 활성화
   },
-  "include": ["./src"],
+  "include": ["./src"] // 빌드할 파일의 위치
 }

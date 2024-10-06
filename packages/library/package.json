@@ -1,6 +1,14 @@
 {
-  "name": "library",
-  "packageManager": "yarn@4.5.0",
+  "name": "react-easyform",
+  "version": "0.0.1",
+  "main": "dist/react-easyform.cjs.js",
+  "module": "dist/react-easyform.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build && tsc -b",
+    "lint": "eslint vite-project",
+    "preview": "vite preview"
+  },
   "devDependencies": {
     "@types/node": "^22.7.4",
     "@types/react": "^18.3.10",
