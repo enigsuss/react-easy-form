@@ -1,4 +1,4 @@
-import { EasyForm } from "react-easyform";
+import { EasyForm } from "@easyux/react-easyform";
 import "./App.css";
 import "./LoginForm.css";
 

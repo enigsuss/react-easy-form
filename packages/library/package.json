@@ -1,5 +1,5 @@
 {
-  "name": "react-easyform",
+  "name": "@easyux/react-easyform",
   "version": "0.0.1",
   "description": "A headless login form component for React.",
   "main": "dist/react-easyform.cjs.js",

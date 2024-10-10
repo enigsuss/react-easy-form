@@ -5,6 +5,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "demo": "yarn workspace vite-project install",
+    "lib": "yarn workspace @easyux/react-easyform install"
+  },
   "dependencies": {
     "prettier": "^3.3.3",
     "typescript": "^5.6.2"
