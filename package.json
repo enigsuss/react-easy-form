@@ -4,13 +4,13 @@
   "private": true,
   "workspaces": [
     "demo",
-    "library",
+    "lib",
     "docs"
   ],
   "scripts": {
     "demo": "yarn workspace demo",
     "demo:publish": "yarn workspace demo add react-easyform@latest",
-    "library": "yarn workspace react-easyform",
+    "lib": "yarn workspace react-easyform",
     "docs": "yarn workspace docs",
     "typecheck": "yarn workspaces foreach --all run typecheck",
     "lint": "eslint .",

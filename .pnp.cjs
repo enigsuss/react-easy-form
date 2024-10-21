@@ -20,7 +20,7 @@ const RAW_RUNTIME_STATE =
     },\
     {\
       "name": "react-easyform",\
-      "reference": "workspace:library"\
+      "reference": "workspace:lib"\
     }\
   ],\
   "enableTopLevelFallback": true,\
@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
   "fallbackExclusionList": [\
     ["demo", ["workspace:demo"]],\
     ["monorepo-react-easyform", ["workspace:."]],\
-    ["react-easyform", ["virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#workspace:library", "workspace:library"]]\
+    ["react-easyform", ["virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#workspace:lib", "workspace:lib"]]\
   ],\
   "fallbackPool": [\
   ],\
@@ -1467,17 +1467,17 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:395dcf9a2edbad5386977304c37dc7ed6db50b67feeebcbfa35723a2c20e18b27f3c4f25b43265f61a865ca12edfdc4ded2d884d163902473b1f92df05406c18#npm:4.3.2", {\
-        "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-react-virtual-17e0d742d1/0/cache/@vitejs-plugin-react-npm-4.3.2-e79c11d68b-9ff278942d.zip/node_modules/@vitejs/plugin-react/",\
+      ["virtual:5901b657532e8438a165bf283ecdedb7697c70161a88311efa1edd91f407dc804c57d18e93efa0a781298a6d4de8bc320f3e16359cd489b11fdeb4430498fa1a#npm:4.3.2", {\
+        "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-react-virtual-2b5fbd665b/0/cache/@vitejs-plugin-react-npm-4.3.2-e79c11d68b-9ff278942d.zip/node_modules/@vitejs/plugin-react/",\
         "packageDependencies": [\
-          ["@vitejs/plugin-react", "virtual:395dcf9a2edbad5386977304c37dc7ed6db50b67feeebcbfa35723a2c20e18b27f3c4f25b43265f61a865ca12edfdc4ded2d884d163902473b1f92df05406c18#npm:4.3.2"],\
+          ["@vitejs/plugin-react", "virtual:5901b657532e8438a165bf283ecdedb7697c70161a88311efa1edd91f407dc804c57d18e93efa0a781298a6d4de8bc320f3e16359cd489b11fdeb4430498fa1a#npm:4.3.2"],\
           ["@babel/core", "npm:7.25.2"],\
           ["@babel/plugin-transform-react-jsx-self", "virtual:95eb9d030a337b22ac7bee3f8f6c4b89cbc0a12d955860af33e27379f0ca40461c16fa969b7dccf5301fb793dfa3bfa378222dd04ba597163fe3fef30f7ef152#npm:7.24.7"],\
           ["@babel/plugin-transform-react-jsx-source", "virtual:95eb9d030a337b22ac7bee3f8f6c4b89cbc0a12d955860af33e27379f0ca40461c16fa969b7dccf5301fb793dfa3bfa378222dd04ba597163fe3fef30f7ef152#npm:7.24.7"],\
           ["@types/babel__core", "npm:7.20.5"],\
           ["@types/vite", null],\
           ["react-refresh", "npm:0.14.2"],\
-          ["vite", "virtual:395dcf9a2edbad5386977304c37dc7ed6db50b67feeebcbfa35723a2c20e18b27f3c4f25b43265f61a865ca12edfdc4ded2d884d163902473b1f92df05406c18#npm:5.4.8"]\
+          ["vite", "virtual:5901b657532e8438a165bf283ecdedb7697c70161a88311efa1edd91f407dc804c57d18e93efa0a781298a6d4de8bc320f3e16359cd489b11fdeb4430498fa1a#npm:5.4.8"]\
         ],\
         "packagePeers": [\
           "@types/vite",\
@@ -2058,7 +2058,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-hooks", "virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#npm:4.6.2"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#npm:18.3.1"],\
-          ["react-easyform", "virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#workspace:library"],\
+          ["react-easyform", "virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#workspace:lib"],\
           ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
           ["vite", "virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#npm:5.4.8"]\
         ],\
@@ -4245,19 +4245,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["react-easyform", [\
-      ["virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#workspace:library", {\
-        "packageLocation": "./.yarn/__virtual__/react-easyform-virtual-395dcf9a2e/1/library/",\
+      ["virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#workspace:lib", {\
+        "packageLocation": "./.yarn/__virtual__/react-easyform-virtual-5901b65753/1/lib/",\
         "packageDependencies": [\
-          ["react-easyform", "virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#workspace:library"],\
+          ["react-easyform", "virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#workspace:lib"],\
           ["@types/node", "npm:22.7.4"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
-          ["@vitejs/plugin-react", "virtual:395dcf9a2edbad5386977304c37dc7ed6db50b67feeebcbfa35723a2c20e18b27f3c4f25b43265f61a865ca12edfdc4ded2d884d163902473b1f92df05406c18#npm:4.3.2"],\
+          ["@vitejs/plugin-react", "virtual:5901b657532e8438a165bf283ecdedb7697c70161a88311efa1edd91f407dc804c57d18e93efa0a781298a6d4de8bc320f3e16359cd489b11fdeb4430498fa1a#npm:4.3.2"],\
           ["esbuild", "npm:0.24.0"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:7ff15405ea2a649bedb31b53eb450b593e17c2290ffe01050ae1173d21896ac6c71075320c9f785857328929ff5965843d133b83cfa1c0dfdbb3e8f91e535cc1#npm:18.3.1"],\
           ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07"],\
-          ["vite", "virtual:395dcf9a2edbad5386977304c37dc7ed6db50b67feeebcbfa35723a2c20e18b27f3c4f25b43265f61a865ca12edfdc4ded2d884d163902473b1f92df05406c18#npm:5.4.8"]\
+          ["vite", "virtual:5901b657532e8438a165bf283ecdedb7697c70161a88311efa1edd91f407dc804c57d18e93efa0a781298a6d4de8bc320f3e16359cd489b11fdeb4430498fa1a#npm:5.4.8"]\
         ],\
         "packagePeers": [\
           "@types/react-dom",\
@@ -4267,17 +4267,17 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["workspace:library", {\
-        "packageLocation": "./library/",\
+      ["workspace:lib", {\
+        "packageLocation": "./lib/",\
         "packageDependencies": [\
-          ["react-easyform", "workspace:library"],\
+          ["react-easyform", "workspace:lib"],\
           ["@types/node", "npm:22.7.4"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
-          ["@vitejs/plugin-react", "virtual:395dcf9a2edbad5386977304c37dc7ed6db50b67feeebcbfa35723a2c20e18b27f3c4f25b43265f61a865ca12edfdc4ded2d884d163902473b1f92df05406c18#npm:4.3.2"],\
+          ["@vitejs/plugin-react", "virtual:5901b657532e8438a165bf283ecdedb7697c70161a88311efa1edd91f407dc804c57d18e93efa0a781298a6d4de8bc320f3e16359cd489b11fdeb4430498fa1a#npm:4.3.2"],\
           ["esbuild", "npm:0.24.0"],\
           ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07"],\
-          ["vite", "virtual:395dcf9a2edbad5386977304c37dc7ed6db50b67feeebcbfa35723a2c20e18b27f3c4f25b43265f61a865ca12edfdc4ded2d884d163902473b1f92df05406c18#npm:5.4.8"]\
+          ["vite", "virtual:5901b657532e8438a165bf283ecdedb7697c70161a88311efa1edd91f407dc804c57d18e93efa0a781298a6d4de8bc320f3e16359cd489b11fdeb4430498fa1a#npm:5.4.8"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -5022,10 +5022,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:395dcf9a2edbad5386977304c37dc7ed6db50b67feeebcbfa35723a2c20e18b27f3c4f25b43265f61a865ca12edfdc4ded2d884d163902473b1f92df05406c18#npm:5.4.8", {\
-        "packageLocation": "./.yarn/__virtual__/vite-virtual-658586ecfb/0/cache/vite-npm-5.4.8-0e6d2e051d-17fdffa558.zip/node_modules/vite/",\
+      ["virtual:5901b657532e8438a165bf283ecdedb7697c70161a88311efa1edd91f407dc804c57d18e93efa0a781298a6d4de8bc320f3e16359cd489b11fdeb4430498fa1a#npm:5.4.8", {\
+        "packageLocation": "./.yarn/__virtual__/vite-virtual-d0f3e7e833/0/cache/vite-npm-5.4.8-0e6d2e051d-17fdffa558.zip/node_modules/vite/",\
         "packageDependencies": [\
-          ["vite", "virtual:395dcf9a2edbad5386977304c37dc7ed6db50b67feeebcbfa35723a2c20e18b27f3c4f25b43265f61a865ca12edfdc4ded2d884d163902473b1f92df05406c18#npm:5.4.8"],\
+          ["vite", "virtual:5901b657532e8438a165bf283ecdedb7697c70161a88311efa1edd91f407dc804c57d18e93efa0a781298a6d4de8bc320f3e16359cd489b11fdeb4430498fa1a#npm:5.4.8"],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
           ["@types/node", "npm:22.7.4"],\
