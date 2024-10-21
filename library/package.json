@@ -2,23 +2,33 @@
   "name": "react-easyform",
   "version": "0.0.1",
   "description": "A headless login form component for React.",
-  "main": "dist/react-easyform.cjs.js",
-  "module": "dist/react-easyform.es.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "vite build && tsc -b"
+    "build": "node ./esbuild.config.js",
+    "build:dts": "tsc --emitDeclarationOnly --outDir dist",
+    "dev": "node ./esbuild.config.js --watch",
+    "typecheck": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/enigsuss/react-easyform.git"
   },
-  "author": "EasyForm Team",
+  "type": "module",
   "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "keywords": [
     "react",
     "login",
     "headless",
     "form"
+  ],
+  "contributors": [
+    "enigsuss",
+    "kimeodml"
   ],
   "peerDependencies": {
     "react": "^18.3.1",

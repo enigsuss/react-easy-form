@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "declaration": true, // 타입 정의 파일 생성
+    "declarationMap": true, // 선언 파일의 소스 맵 생성
+    "emitDeclarationOnly": false, // .d.ts 파일과 .js 파일 모두 생성
+    "rootDir": "./src" // 모든 소스 파일의 루트 경로를 명확히 설정
+  },
+  "include": ["src/**/*", "global.d.ts"],
+  "exclude": ["dist", "node_modules"]
+}
