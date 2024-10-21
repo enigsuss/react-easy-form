@@ -1,1 +1,1 @@
-export { add } from "Add/index";
+export { Input } from 'components/Input';

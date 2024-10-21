@@ -10,6 +10,12 @@
 # Documentation here: https://yarnpkg.com/features/caching#zero-installs
 
 #!.yarn/cache
-.pnp.*
+# .pnp.*
+
+# 빌드된 결과물(demo/dist 폴더) 무시
+demo/dist
 
 **/node_modules
+
+# TypeScript 빌드 캐시 파일 무시
+tsconfig.tsbuildinfo
