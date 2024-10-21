@@ -1,6 +1,6 @@
 {
   "name": "monorepo-react-easyform",
-  "packageManager": "yarn@4.5.0",
+  "packageManager": "yarn@4.5.1",
   "private": true,
   "workspaces": [
     "demo",
@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "demo": "yarn workspace demo",
+    "demo:publish": "yarn workspace demo add react-easyform@latest",
     "library": "yarn workspace react-easyform",
     "docs": "yarn workspace docs",
     "typecheck": "yarn workspaces foreach --all run typecheck",
@@ -17,7 +18,7 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.8.0",
+    "@typescript-eslint/eslint-plugin": "^8.10.0",
     "@typescript-eslint/parser": "^8.8.0",
     "eslint": "8.57.1",
     "eslint-config-prettier": "^9.1.0",

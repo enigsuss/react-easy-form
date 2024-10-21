@@ -776,7 +776,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^8.8.0":
+"@typescript-eslint/eslint-plugin@npm:^8.10.0, @typescript-eslint/eslint-plugin@npm:^8.8.0":
   version: 8.10.0
   resolution: "@typescript-eslint/eslint-plugin@npm:8.10.0"
   dependencies:
@@ -2942,7 +2942,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "monorepo-react-easyform@workspace:."
   dependencies:
-    "@typescript-eslint/eslint-plugin": "npm:^8.8.0"
+    "@typescript-eslint/eslint-plugin": "npm:^8.10.0"
     "@typescript-eslint/parser": "npm:^8.8.0"
     eslint: "npm:8.57.1"
     eslint-config-prettier: "npm:^9.1.0"
